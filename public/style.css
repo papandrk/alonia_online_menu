@@ -2,8 +2,9 @@ html,
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-color: #d6c289;
+    background-color: #d6c692;
     font-size: 1.5rem;
+    color: #484848;
 }
 
 img {
@@ -11,9 +12,13 @@ img {
     display: block;
 }
 
+p {
+    margin: 0.5rem;
+}
+
 a,
 a:visited {
-    color: black;
+    color: #484848;
     text-decoration: none;
     border-radius: 0.5rem;
     background-color: wheat;
@@ -21,7 +26,8 @@ a:visited {
     display: inline-block;
     width:10rem;
     text-align: center;
-}
+    box-shadow: 2px 2px 8px;
+}       
 
 .vertical-flexbox {
     display: flex;
@@ -29,4 +35,5 @@ a:visited {
     height: 100dvh;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
